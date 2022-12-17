@@ -4,7 +4,7 @@ import { Router } from "express";
 const router = Router();
 
 router.get("/", (req, res) => {
-  res.render("index", {title: 'First website with node'});
+  res.render("index", {title: 'Website with node.js'});
 }); //res.render for work with the index.ejs
 
 router.get("/about", (req, res) => {
